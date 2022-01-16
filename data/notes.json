@@ -1,12 +1,23 @@
-
-
-
 {
-    "notes":[
+  "notes": [
     {
-        "title":"Test Title",
-        "text":"Test text"
+      "title": "Test Title",
+      "text": "Test text"
+    },
+    {
+      "title": "make this work",
+      "text": "see if this works",
+      "id": "1"
+    },
+    {
+      "title": "make this work",
+      "text": "see if this works",
+      "id": "2"
+    },
+    {
+      "title": "does this work",
+      "text": "this should work",
+      "id": "3"
     }
-]
+  ]
 }
-    
