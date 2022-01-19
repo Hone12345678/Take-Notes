@@ -4,6 +4,7 @@ const database = require('../data/database')
 
 
 router.get('/notes', (req, res) => {
+    console.log('Here')
     database.getNotes().then((notes) => {
         return res.json(notes)
     })
