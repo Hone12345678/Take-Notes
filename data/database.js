@@ -6,7 +6,7 @@ const writeFile = util.promisify(fs.writeFileSync)
 
 class Database{
     read(){
-        return readFile(path.join(__dirname,'../data/notes.json'), 'utf-8')
+        return readFile('data/notes.json', 'utf-8')
     }
     write(notes){
         return writeFile('data/notes.json',JSON.stringify(notes) )
